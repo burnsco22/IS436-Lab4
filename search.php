@@ -52,12 +52,6 @@
 
 				<input type = "submit" name="searchInterest" value="Search by Interest" id="interestSearch"/>
 			</form>
-			
-			<br/>
-			
-			<form name="preferences" method="POST" action = "search_results.php">
-				<input type = "submit" name = "preferences" value = "Search by Preferences" id="preferencesApply">
-			</form>
 		
 			<div class= "autocomplete" id="alertBox">
 			<!--Hint messages will be printed here-->
