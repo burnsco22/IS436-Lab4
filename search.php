@@ -1,14 +1,3 @@
-<?php
-	/*session_start();
-	if(isset($_SESSION['username'])){
-		$flag = 1;
-		$searchmessage = "Welcome to the search page, " . $_SESSION['username'];
-	}
-	else {
-		$flag = 0;
-	}*/
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,45 +16,34 @@
 
 	<!--Navigation Bar Links-->
 		<div class="topNav">
-			<a href="index.php">Home</a>
-			<a href="login.php">Login</a>
-			<a href="register.php">Register</a>
-			<a class="active" href="search.php">Search</a>
-			<a href="favorites.php">Favorites</a>
-			<a href="profilepagemain.php">Profile</a>
+			<a class="active">Home</a>
+			<a>About</a>
+			<a>Undergraduate</a>
+			<a>Graduate Program</a>
+			<a>People</a>
+			<a>Research</a>
+			<a>Contact Us</a>
 		</div>
 		
 	<!--Banner Image across the top of the webpage under the nav bar-->
 	<div class="banner">
 		<img class="container" src="searchbanner.jpg" alt="Planning"/>
-		<h3 class="formTitle">Search Degree Plans</h3>
+		<h3 class="formTitle">Department of Information Systems</h3>
 	</div>
 		
-	<!--Search Page Content-->
-	<!--Instructions for the Search Page-->
+	<!--Home Page Content-->
+	<!--Intro for the Home Page-->
 	<div class="instructions">
-	<?php
-		/*	if($flag == 1){
-			print ($searchmessage);*/
-	?>
 
 		<p>
-			Search by interest allows students to find degree plans based upon an interest.<br/>
-			Search by Degree Plan allows students to type in a potential degree plan to see if it is available.<br/>
-			To view previously chosen or save current interests and degree plans, <a class="login" href="login.html">Login here.</a>
+			Welcome to the Department of Information Systems.<br/>
+			We offer a variety of certifications and graduate tracks within the field of Information Systems. <br/>
+			Please browse the above tabs to view resources relevant to this major.
 		</p>
 	</div>
 		
 		<!--Form that takes in the information needed to register an account with the website-->
 		<div class="searchArea">
-		
-			<form name="searchbyDegree" method="POST" action = "search_results.php" id="searchform">
-				<div class="form">
-					<input type = "text" name = "major" placeholder="Enter Major" id="majorInput"/>
-				</div>
-
-				<input type = "submit" name="searchMajor" value="Search by Major" id="majorSearch"/>
-			</form>
 			
 			<form name="searchbyInterest" method="POST" action = "search_results.php" id="searchform">
 				<div class="form">
