@@ -1,0 +1,192 @@
+/*This CSS style sheet is used for the search.html page*/
+/*By: Courtney Burns*/
+/*--Last modified: Oct 21, 2018 4:39pm*/
+/*Many of these are used among all pages as shared styles*/
+
+/*Main Body (shared)*/
+body{
+	background-color: #073763ff; /*deep blue*/
+	font-size: 14pt;
+	font-family: Times New Roman, Georgia, Serif;
+	color: black;
+}
+
+h2{
+	text-decoration:underline;
+}
+
+/*Navigation Bar*/
+.topNav {
+    overflow: hidden;
+    background-color: #073763ff; /*deep blue*/
+}
+
+.topNav a {
+    float: left;
+    display: block;
+    background-color: #073763ff; /*deep blue*/
+	color: white;
+	text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 18px;
+}
+
+.topNav a:hover{
+    background-color: orange; 
+	color: #073763ff; /*deep blue*/
+}
+
+.topNav a.active{
+	background-color: orange;
+	color: #073763ff; /*deep blue*/
+}
+
+/*Banner*/
+img.container{
+	border-top: 10px solid orange;
+}
+
+.banner{
+	background-color: white;
+	margin-bottom: 30px;
+}
+
+/*Instructions for search page*/
+.instructions{
+	background-color: white;
+	border-top: 3px;
+	border-left: 50px solid #073763ff; /*deep blue*/
+	border-bottom: 50px solid #073763ff; /*deep blue*/
+	border-right: 50px solid #073763ff; /*deep blue*/
+	text-align: center;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+/*Form Title (shared)*/
+.formTitle{
+	text-align: center;
+	text-decoration: underline;
+	color: #073763ff; /*deep blue*/
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-top: 0px;
+}
+
+/*Search Area (shared but needs generic name)*/
+.searchArea{
+	background-color: white;
+	border-top: none;
+	border-left: 50px solid #073763ff; /*deep blue*/
+	border-bottom: 50px solid #073763ff; /*deep blue*/
+	border-right: 50px solid #073763ff; /*deep blue*/
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+/*Search Result Area (shared but needs generic name)*/
+.searchResultArea{
+	background-color: white;
+	border-top: none;
+	border-left: 50px solid #073763ff; /*deep blue*/
+	border-bottom: 50px solid #073763ff; /*deep blue*/
+	border-right: 50px solid #073763ff; /*deep blue*/
+	padding: 10px;
+}
+
+.searchCriteria{
+		border: 1px solid black;
+		border-radius: 4px;
+		margin: 5px 10px;
+		padding: 5px 5px;
+		padding-bottom: 1px;
+		padding-top: 1px;
+		text-align: left;
+		background-color: #F5F5F5; /*light gray*/
+		color: black;
+		width: 50%;
+}
+
+/*Form Styling*/
+input[type=text]{
+		border: 1px solid black;
+		border-radius: 4px;
+		margin: 5px 10px;
+		padding: 12px 20px;
+		text-align: left;
+		background-color: #F5F5F5; /*light gray*/
+		color: black;
+		width: 50%;
+}
+
+input[type=text]:focus{
+	background-color: #d3d3d3; /*light slate gray*/
+}
+
+input[type=button], input[type=submit]{
+		background-color: orange;
+		border: none;
+		color: #073763ff; /*deep blue*/
+		padding: 12px 20px;
+		text-decoration: none;
+		margin: 4px 2px;
+		cursor: pointer;
+		border-radius: 4px;
+		width: 17%;
+}
+
+/*Link back to search page from search_results.php*/
+a.login{
+	color: orange;
+	text-decoration: none;
+}
+
+/*Areas for alert messages*/
+.alertBox{
+	position: absolute; 
+	background-color: white;
+	left: 100px;
+    top: 0px;
+	text-align: left;
+	font-size: 50px;
+	z-index: -1;
+}
+
+.messageBox{
+	position: relative; 
+    top: 20px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+div.autocomplete {
+  margin:0px;  
+  padding:0px;  
+  width:250px;
+  background:white;
+  border:1px solid #888;
+  position:absolute;
+}
+
+div.autocomplete ul {
+  margin:0px;
+  padding:0px;
+  list-style-type:none;
+}
+
+div.autocomplete ul li.selected { 
+  background-color:#ffb;
+}
+
+div.autocomplete ul li {
+  margin:0;
+  padding:2px;
+  height:32px;
+  display:block;
+  list-style-type:none;
+  cursor:pointer;
+}
