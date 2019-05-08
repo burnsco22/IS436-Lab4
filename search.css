@@ -1,11 +1,11 @@
-/*This CSS style sheet is used for the search.html page*/
+/*This CSS style sheet is used for the Information Systems website*/
 /*By: Courtney Burns*/
-/*--Last modified: Oct 21, 2018 4:39pm*/
+/*--Last modified: May 8, 2019 1:12am*/
 /*Many of these are used among all pages as shared styles*/
 
 /*Main Body (shared)*/
 body{
-	background-color: #073763ff; /*deep blue*/
+	background-color: #000000; /*black*/
 	font-size: 14pt;
 	font-family: Times New Roman, Georgia, Serif;
 	color: black;
@@ -18,13 +18,13 @@ h2{
 /*Navigation Bar*/
 .topNav {
     overflow: hidden;
-    background-color: #073763ff; /*deep blue*/
+    background-color: #000000; /*black*/
 }
 
 .topNav a {
     float: left;
     display: block;
-    background-color: #073763ff; /*deep blue*/
+    background-color: #000000; /*black*/
 	color: white;
 	text-align: center;
     padding: 14px 16px;
@@ -33,18 +33,18 @@ h2{
 }
 
 .topNav a:hover{
-    background-color: orange; 
-	color: #073763ff; /*deep blue*/
+    background-color: #fdb515; /*gold*/
+	color: #000000; /*black*/
 }
 
 .topNav a.active{
-	background-color: orange;
-	color: #073763ff; /*deep blue*/
+	background-color: #fdb515; /*gold*/
+	color: #000000; /*black*/
 }
 
 /*Banner*/
 img.container{
-	border-top: 10px solid orange;
+	border-top: 10px solid #fdb515; /*gold*/
 }
 
 .banner{
@@ -56,9 +56,9 @@ img.container{
 .instructions{
 	background-color: white;
 	border-top: 3px;
-	border-left: 50px solid #073763ff; /*deep blue*/
-	border-bottom: 50px solid #073763ff; /*deep blue*/
-	border-right: 50px solid #073763ff; /*deep blue*/
+	border-left: 50px solid #000000; /*black*/
+	border-bottom: 50px solid #000000; /*black*/
+	border-right: 50px solid #000000; /*black*/
 	text-align: center;
 	padding-bottom: 3px;
 	padding-top: 3px;
@@ -68,7 +68,7 @@ img.container{
 .formTitle{
 	text-align: center;
 	text-decoration: underline;
-	color: #073763ff; /*deep blue*/
+	color: #000000; /*black*/
 	background-color: white;
 	padding-top: 10px;
 	padding-bottom: 20px;
@@ -79,9 +79,9 @@ img.container{
 .searchArea{
 	background-color: white;
 	border-top: none;
-	border-left: 50px solid #073763ff; /*deep blue*/
-	border-bottom: 50px solid #073763ff; /*deep blue*/
-	border-right: 50px solid #073763ff; /*deep blue*/
+	border-left: 50px solid #000000; /*black*/
+	border-bottom: 50px solid #000000; /*black*/
+	border-right: 50px solid #000000; /*black*/
 	text-align: center;
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -91,9 +91,9 @@ img.container{
 .searchResultArea{
 	background-color: white;
 	border-top: none;
-	border-left: 50px solid #073763ff; /*deep blue*/
-	border-bottom: 50px solid #073763ff; /*deep blue*/
-	border-right: 50px solid #073763ff; /*deep blue*/
+	border-left: 50px solid #000000; /*black*/
+	border-bottom: 50px solid #000000; /*black*/
+	border-right: 50px solid #000000; /*black*/
 	padding: 10px;
 }
 
@@ -127,9 +127,9 @@ input[type=text]:focus{
 }
 
 input[type=button], input[type=submit]{
-		background-color: orange;
+		background-color: #fdb515; /*gold*/
 		border: none;
-		color: #073763ff; /*deep blue*/
+		color: #000000; /*black*/
 		padding: 12px 20px;
 		text-decoration: none;
 		margin: 4px 2px;
@@ -140,7 +140,7 @@ input[type=button], input[type=submit]{
 
 /*Link back to search page from search_results.php*/
 a.login{
-	color: orange;
+	color: #fdb515; /*gold*/
 	text-decoration: none;
 }
 
