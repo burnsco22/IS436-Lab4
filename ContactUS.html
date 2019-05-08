@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Search Degree Plans</title>
+	<link rel="stylesheet" type="text/css" href="IS436-StyleSheet.css" title="style" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js"></script>
+	<script type="text/javascript" src="search.js"></script>
+</head>
+<body>
+
+<!--This form is used by students to search for relevant degree plans to save to their account.-->
+<!--By: Courtney Burns-->
+<!--Last modified: Dec 18, 2018 2:17pm-->
+
+	<!--Navigation Bar Links-->
+		<div class="topNav">
+			<a href="index.php">Home</a>
+			<a href="login.php">Login</a>
+			<a href="register.php">Register</a>
+			<a class="active" href="search.php">Search</a>
+			<a href="favorites.php">Favorites</a>
+			<a href="profilepagemain.php">Profile</a>
+		</div>
+		
+	<!--Banner Image across the top of the webpage under the nav bar-->
+	<div class="banner">
+		<img class="container" src="searchbanner.jpg" alt="Planning"/>
+		<h3 class="formTitle">Search Degree Plans</h3>
+	</div>
+		
+	<!--Search Page Content-->
+	<!--Instructions for the Search Page-->
+	<div class="instructions">
+
+		<p>
+			Search by interest allows students to find degree plans based upon an interest.<br/>
+			Search by Degree Plan allows students to type in a potential degree plan to see if it is available.<br/>
+			To view previously chosen or save current interests and degree plans, <a class="login" href="login.html">Login here.</a>
+		</p>
+	</div>
+		
+		<!--Form that takes in the information needed to register an account with the website-->
+		<div class="searchArea">
+		
+			<h1>
+			Please Fill in the Form Below to Contact Us
+			</h1>
+
+		<form class="contact" action="">
+                <p>
+                    <label for="fname">First Name</label>
+                    <input class="contact" type="text" id="fname" name="firstname" />
+                </p>
+                <p>
+                    <label for="lname">Last Name</label>
+                    <input class="contact" type="text" id="lname" name="lastname" />
+                </p>
+                <p>
+                    <label for="uname">Username</label>
+                    <input class="contact" type="text" id="uname" name="username" />
+                </p>
+                <p>
+                    <label for="mail">Email</label>
+                    <input class="contact" type="text" id="mail" name="mail" />
+                </p>
+                <p>
+                    <label for="num">Phone Number</label>
+                    <input class="contact" type="text" id="num" name="phonenumber" />
+                </p>
+                <p>
+                    <label for="country">Country</label>
+                    <select class="contact" id="country" name="country">
+
+	<option value="USA">United States</option>
+	<option value="AFG">Afghanistan</option>
+	<option value="ALB">Albania</option>
+	<option value="DZA">Algeria</option>
+	<option value="ARG">Argentina</option>
+	<option value="AUS">Australia</option>
+	<option value="BRA">Brazil</option>
+	<option value="KHM">Cambodia</option>
+	<option value="CAN">Canada</option>
+	<option value="TCD">Chad</option>
+	<option value="CHL">Chile</option>
+	<option value="CHN">China</option>
+	<option value="COL">Colombia</option>
+	<option value="COG">Congo</option>
+	<option value="CRI">Costa Rica</option>
+	<option value="CUB">Cuba</option>
+	<option value="DNK">Denmark</option>
+	<option value="ECU">Ecuador</option>
+	<option value="EGY">Egypt</option>
+	<option value="SLV">El Salvador</option>
+	<option value="ERI">Eritrea</option>
+	<option value="EST">Estonia</option>
+	<option value="ETH">Ethiopia</option>
+	<option value="FJI">Fiji</option>
+	<option value="FIN">Finland</option>
+	<option value="FRA">France</option>
+	<option value="GAB">Gabon</option>
+	<option value="GMB">Gambia</option>
+	<option value="GEO">Georgia</option>
+	<option value="DEU">Germany</option>
+	<option value="HND">Honduras</option>
+	<option value="HKG">Hong Kong</option>
+	<option value="HUN">Hungary</option>
+	<option value="ISL">Iceland</option>
+	<option value="IND">India</option>
+	<option value="IDN">Indonesia</option>
+	<option value="MDG">Madagascar</option>
+	<option value="MEX">Mexico</option>
+	<option value="MCO">Monaco</option>
+	<option value="MNG">Mongolia</option>
+	<option value="NPL">Nepal</option>
+	<option value="PER">Peru</option>
+	<option value="PHL">Philippines</option>
+	<option value="PRT">Portugal</option>
+	<option value="PRI">Puerto Rico</option>
+	<option value="SGP">Singapore</option>
+	<option value="ZAF">South Africa</option>
+	<option value="SSD">South Sudan</option>
+	<option value="ESP">Spain</option>
+	<option value="SWZ">Swaziland</option>
+	<option value="SWE">Sweden</option>
+	<option value="GBR">United Kingdom</option>
+	
+      </select>
+                </p>
+                <p>
+                    <label for="sub">Subject</label>
+                </p>
+                <p>
+                    <textarea class="subj" id="sub" name="subject" rows="1" cols="1"></textarea></p>
+                <p>
+                    <input class="button" type="submit" value="Submit" />
+                    <input class="redbutton" type="reset" value="Reset" />
+                </p>
+            </form>
+			
+		</div>
+</body>
+</html>
